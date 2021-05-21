@@ -30,6 +30,7 @@ Vue.component('orders', require('./components/Boxes/Orders.vue').default)
 Vue.component('bounce', require('./components/Boxes/Bounce.vue').default)
 Vue.component('registration', require('./components/Boxes/Registration.vue').default)
 Vue.component('visitors', require('./components/Boxes/Visitors.vue').default)
+Vue.component('calendar', require('./components/DashboardComponents/Calendar.vue').default)
 
 import App from './components/App.vue'
 /**

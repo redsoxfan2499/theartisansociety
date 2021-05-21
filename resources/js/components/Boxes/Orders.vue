@@ -1,7 +1,7 @@
 <template>
     <div class="small-box bg-info">
         <div class="inner">
-            <h3>150</h3>
+            <h3>{{ order_count }}</h3>
 
             <p>New Orders</p>
         </div>
@@ -14,7 +14,11 @@
 
 <script>
 export default {
-    name: "Orders.vue"
+    data() {
+        return {
+            order_count: 150
+        }
+    }
 }
 </script>
 

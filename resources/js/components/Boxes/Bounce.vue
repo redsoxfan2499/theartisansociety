@@ -1,7 +1,7 @@
 <template>
     <div class="small-box bg-success">
         <div class="inner">
-            <h3>53<sup style="font-size: 20px">%</sup></h3>
+            <h3>{{ bounce_rate }}<sup style="font-size: 20px">%</sup></h3>
 
             <p>Bounce Rate</p>
         </div>
@@ -14,7 +14,11 @@
 
 <script>
 export default {
-    name: "Bounce.vue"
+    data() {
+        return {
+            bounce_rate: 53
+        }
+    }
 }
 </script>
 

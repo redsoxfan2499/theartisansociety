@@ -1,7 +1,7 @@
 <template>
     <div class="small-box bg-danger">
         <div class="inner">
-            <h3>65</h3>
+            <h3>{{ visitor_count }}</h3>
 
             <p>Unique Visitors</p>
         </div>
@@ -14,7 +14,11 @@
 
 <script>
 export default {
-    name: "Visitors.vue"
+    data() {
+        return {
+            visitor_count: 65
+        }
+    }
 }
 </script>
 
